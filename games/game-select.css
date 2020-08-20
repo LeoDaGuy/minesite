@@ -1,0 +1,92 @@
+html {
+   font-family: 'MinecraftTen-VGORe', 'VT323', monospace;
+  src:url(MinecraftTen-VGORe.ttf);
+  cursor: url("cursors/Minecraft-normal.cur"), default;
+  text-align: center;
+}
+
+#tic {
+  margin-right: auto;
+  margin-left: 2px;
+}
+
+body {
+  background-color: lightblue;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  width: 300px;
+  height: 200px;
+
+}
+
+.ingame {
+  display: inline-block;
+  width: 100%;
+  height: 80%;
+  object-fit: contain;
+  display: flex;
+  justify-content: space-around;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 20%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  height: 15%;
+  opacity: 1;
+  cursor: url("../cursors/Minecraft-link.cur"), pointer;
+}
+
+* {
+  cursor: url("../cursors/Minecraft-normal.cur"), default;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.column {
+  display: flex;
+  justify-content: space-around;
+  flex: 33.33%;
+  padding: 5px;
+}
+
+#bigdiv {
+  display: flex;
+  justify-content: center;
+}
+
+#rik:hover {
+  cursor: url("../../../../cursors/Minecraft-unavilable.cur");
+}

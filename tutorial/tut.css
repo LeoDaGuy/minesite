@@ -1,0 +1,30 @@
+*{
+  font-family: 'MinecraftTen-VGORe', 'VT323', monospace;
+  src:url(../../../../MinecraftTen-VGORe.ttf);
+  cursor: url("../../../../../../cursors/Minecraft-normal.cur"), default;
+}
+
+body {
+  background-image: url('../img/tutbg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  cursor: url("cursors/Minecraft-normal.cur"), default;
+}
+
+#stem {
+  padding: 0;
+  margin: auto;
+  color: white;
+  background-color: green;
+  text-align: center;
+  width: 80%;
+}
+
+p, h2{
+  color: white;
+}
+
+img {
+  width: 30%;
+}

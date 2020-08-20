@@ -1,0 +1,14 @@
+*{
+  font-family: 'MinecraftTen-VGORe', 'VT323', monospace;
+  src:url(MinecraftTen-VGORe.ttf);
+}
+
+body {
+  background-color: blanchedalmond;
+}
+
+#main {
+  border-radius: 0.0000001vw;
+  background-color: #37b54a;
+  padding: 1%;
+}

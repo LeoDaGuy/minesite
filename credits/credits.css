@@ -1,0 +1,41 @@
+*{
+  font-family: 'MinecraftTen-VGORe', 'VT323', monospace;
+  src:url(../../../../MinecraftTen-VGORe.ttf);
+  cursor: url("../../../../../../cursors/Minecraft-normal.cur"), default;
+}
+
+.iconsa {
+  width: 15%;
+  opacity: 0.50;
+}
+
+.iconsa:hover {
+  opacity: 1;
+}
+
+body {
+  background-image: url('../img/creditsbg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+hr {
+  bottom: 15%;
+  background-color: rgb(70, 70, 70);
+  height: 5px;
+  border-radius: 3px;
+}
+
+ul {
+  font-size: 15px;
+  text-decoration: none;
+}
+
+#stem {
+  padding: 0;
+  margin: auto;
+  background-color: green;
+  text-align: center;
+  width: 80%;
+}

@@ -1,0 +1,49 @@
+body {
+  background-image: url("../../../img/clickbg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+
+}
+
+#clicktitle {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+img {
+  background-color: lightgray;
+  border-radius: 1vw;
+  padding: 1% 1% 1% 1%;
+}
+
+.button {
+  font-size: 3.5vw;
+  text-decoration: none;
+  display: inline-block;
+  padding: 1% 1% 1% 1%;
+  margin-top: 10%;
+}
+
+#start {
+  background-color: gold;
+  margin-left: 40%;
+}
+#start:hover {
+  background-color: darkgoldenrod;
+}
+
+#how {
+  background-color: greenyellow;
+  margin-right: 1%;
+}
+#how:hover {
+  background-color: green;
+}
+
+*{
+  font-family: 'MinecraftTen-VGORe', 'VT323', monospace;
+  src:url(MinecraftTen-VGORe.ttf);
+}
